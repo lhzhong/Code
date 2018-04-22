@@ -1,0 +1,7 @@
+This is a sample code for extrating iamge frame field given a video.
+
+Usage:
+cpu:
+cmake .
+make
+./flow_color -f test.avi -i tmp/flow_color
