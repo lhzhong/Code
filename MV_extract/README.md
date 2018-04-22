@@ -1,5 +1,11 @@
 ### 视频motion vector特征的提取
 
-* 需要下载ffmpeg工具 
+#### 使用说明 
 
-   **下载地址**：[百度网盘](www.baidu.com)   **密码**：
+1.**ffmpeg工具下载**
+
+   下载地址：[百度网盘](www.baidu.com)   密码：
+
+2.**运行 `bash ./extract_mvs_one.sh` 或  `bash ./extract_mvs_all.sh`**
+
+> `extract_mvs_one.sh`是提取单个视频的mv特征； `extract_mvs_all.sh`批量提取多个视频特征
