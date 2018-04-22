@@ -1,0 +1,9 @@
+This is a sample code for extrating dense flow field given a video.
+
+Usage:
+cpu:
+camek .
+make
+./denseFlow -f test.avi -x tmp/flow_x -y tmp/flow_x -b 20
+gpu:
+./denseFlow_gpu -f test.avi -x tmp/flow_x -y tmp/flow_x -b 20 -t 1 -d 0 -s 1
