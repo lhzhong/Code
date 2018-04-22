@@ -1,0 +1,7 @@
+This is a sample code for extrating iamge frame field given a video.
+
+Usage:
+cpu:
+camek .
+make
+./image_gray -f test.avi -i tmp/image_gray
