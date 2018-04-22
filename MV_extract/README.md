@@ -8,4 +8,4 @@
 
 2.**运行 `bash ./extract_mvs_one.sh` 或  `bash ./extract_mvs_all.sh`**
 
-> `extract_mvs_one.sh`是提取单个视频的mv特征； `extract_mvs_all.sh`批量提取多个视频特征
+> extract_mvs_one是提取单个视频的mv特征； extract_mvs_all批量提取多个视频特征
