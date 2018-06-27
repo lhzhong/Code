@@ -24,7 +24,6 @@ frame = imresize(frame, (224, 224))
 plt.imshow(frame, cmap='Greys_r')
 plt.show()
 ```
-
 ### 3.opencv读取
 opencv需要另外安装 
 安装执行```conda install -c menpo opencv3```
@@ -34,6 +33,8 @@ opencv需要另外安装
 import cv2
 frame = cv2.imread('lena.jpeg')
 ```
+### 4.tensorflow读取
+tensorflow可用```tf.gfile.FastGFile('lena.jpeg', 'rb').read()```和```tf.image.decode_jpeg()```读取和解压图片，但我测试了一下tensorflow解压出来的图片都是三个通道的，即使我读进去的是一通道的图片，其也会将它转化为3通道，所以要得到灰度图，在读取解压后还需要再转换
 
 https://blog.csdn.net/uestc_c2_403/article/details/74156830
 
