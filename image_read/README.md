@@ -8,7 +8,7 @@
 
 
 ```
-import matplotlib.pyplot as plt # plt 用于显示图片
+import matplotlib.pyplot as plt 
 import numpy as np
 from scipy.misc import imresize
 from PIL import Image
