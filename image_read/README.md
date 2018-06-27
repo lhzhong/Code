@@ -25,6 +25,15 @@ plt.imshow(frame, cmap='Greys_r')
 plt.show()
 ```
 
+### 3.opencv读取
+opencv需要另外安装 
+安装执行```conda install -c menpo opencv3```
+
+```
+# 读取图片，保存的是unit8类型数组
+import cv2
+frame = cv2.imread('lena.jpeg')
+```
 
 https://blog.csdn.net/uestc_c2_403/article/details/74156830
 
