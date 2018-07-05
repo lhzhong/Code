@@ -6,6 +6,7 @@ tf.add_n：把一个列表的东西都依次加起来
 
 import tensorflow as tf
 
+# tf.constant_initizlizer 可以简写成tf.constant()
 a = tf.get_variable('a', initializer=tf.constant_initializer(2))
 b = tf.get_variable('b', initializer=tf.constant_initializer(4))
 
