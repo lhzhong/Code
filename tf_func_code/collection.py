@@ -6,8 +6,8 @@ tf.add_n：把一个列表的东西都依次加起来
 
 import tensorflow as tf
 
-a = tf.get_variable('a', initializer=tf.constant(2))
-b = tf.get_variable('b', initializer=tf.constant(4))
+a = tf.get_variable('a', initializer=tf.constant_initializer(2))
+b = tf.get_variable('b', initializer=tf.constant_initializer(4))
 
 tf.add_to_collection('losses', a)
 tf.add_to_collection('losses', b)
