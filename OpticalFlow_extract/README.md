@@ -13,7 +13,7 @@ target_link_libraries( Flow ${OpenCV_LIBS} )
 ```
 > denseFlow改成自己的文件名称
 
-**3.根目录问价夹下新建build和temp文件夹**
+**3.根目录文件夹下新建build和temp文件夹**
 
 **4.编译（根目录文件下下执行）**
 ```
