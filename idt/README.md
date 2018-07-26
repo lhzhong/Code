@@ -8,6 +8,9 @@
 
 > 参考 [opencv安装](https://github.com/lhzhong/iNote/blob/master/Install_Caffe(GPU).md)
 
+**2.安装ffmpeg**
+> 参考 [ffmpeg安装](https://github.com/lhzhong/iNote/blob/master/Install_ffmpeg.md)
+
 **3.编译（进入idt目录）**
 ```
 make
