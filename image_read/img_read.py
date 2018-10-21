@@ -1,4 +1,4 @@
-# python三种方式读取图片
+# python几种读取图片方式
 
 import time
 import numpy as np
