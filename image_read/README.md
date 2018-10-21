@@ -33,10 +33,20 @@ opencv需要另外安装
 import cv2
 frame = cv2.imread('lena.jpeg')
 ```
-### 4.tensorflow读取
+
+### 4.scipy读取  
+```
+from scipy import misc
+frame = misc.imread("lena.jpg")
+```
+
+### 5.tensorflow读取
 tensorflow可用```tf.gfile.FastGFile('lena.jpeg', 'rb').read()```和```tf.image.decode_jpeg()```读取和解压图片，但我测试了一下tensorflow解压出来的图片都是三个通道的，即使我读进去的是一通道的图片，其也会将它转化为3通道，所以要得到灰度图，在读取解压后还需要再转换
 
-### 参考
-https://blog.csdn.net/uestc_c2_403/article/details/74156830
+### 6.各方法比较  
+见`img_read.py`文件
 
-https://www.cnblogs.com/yinxiangnan-charles/p/5928689.html
+### 参考
+[tensorflow让彩色图变成灰度图](https://blog.csdn.net/uestc_c2_403/article/details/74156830)  
+[python 读取并显示图片的两种方法](https://www.cnblogs.com/yinxiangnan-charles/p/5928689.html)  
+[图像读取方式以及效率对比](https://zhuanlan.zhihu.com/p/30383580)
