@@ -1,4 +1,4 @@
-# python几种读取图片方式
+# python几种读取图片方式及效率比较
 
 import time
 import numpy as np
